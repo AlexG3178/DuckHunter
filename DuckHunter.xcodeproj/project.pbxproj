@@ -9,24 +9,32 @@
 /* Begin PBXBuildFile section */
 		9BDDA35D2246A33400944DD5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA35C2246A33400944DD5 /* AppDelegate.swift */; };
 		9BDDA35F2246A33400944DD5 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA35E2246A33400944DD5 /* GameScene.sks */; };
-		9BDDA3612246A33400944DD5 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3602246A33400944DD5 /* Actions.sks */; };
 		9BDDA3632246A33400944DD5 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA3622246A33400944DD5 /* GameScene.swift */; };
 		9BDDA3652246A33400944DD5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA3642246A33400944DD5 /* ViewController.swift */; };
 		9BDDA3672246A33500944DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3662246A33500944DD5 /* Assets.xcassets */; };
 		9BDDA36A2246A33500944DD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3682246A33500944DD5 /* Main.storyboard */; };
+		9BDDA3732246A40A00944DD5 /* empty.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3722246A40A00944DD5 /* empty.wav */; };
+		9BDDA3752246A41C00944DD5 /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3742246A41C00944DD5 /* shot.wav */; };
+		9BDDA3772246A42600944DD5 /* reload.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9BDDA3762246A42600944DD5 /* reload.wav */; };
+		9BDDA3792246A4AC00944DD5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA3782246A4AC00944DD5 /* GameView.swift */; };
+		9BDDA37B2246A4D900944DD5 /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDDA37A2246A4D900944DD5 /* Target.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9BDDA3592246A33400944DD5 /* DuckHunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DuckHunter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BDDA35C2246A33400944DD5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BDDA35E2246A33400944DD5 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		9BDDA3602246A33400944DD5 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		9BDDA3622246A33400944DD5 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		9BDDA3642246A33400944DD5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9BDDA3662246A33500944DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9BDDA3692246A33500944DD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9BDDA36B2246A33500944DD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BDDA36C2246A33500944DD5 /* DuckHunter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DuckHunter.entitlements; sourceTree = "<group>"; };
+		9BDDA3722246A40A00944DD5 /* empty.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = empty.wav; sourceTree = "<group>"; };
+		9BDDA3742246A41C00944DD5 /* shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shot.wav; sourceTree = "<group>"; };
+		9BDDA3762246A42600944DD5 /* reload.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = reload.wav; sourceTree = "<group>"; };
+		9BDDA3782246A4AC00944DD5 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		9BDDA37A2246A4D900944DD5 /* Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +69,17 @@
 			children = (
 				9BDDA35C2246A33400944DD5 /* AppDelegate.swift */,
 				9BDDA35E2246A33400944DD5 /* GameScene.sks */,
-				9BDDA3602246A33400944DD5 /* Actions.sks */,
 				9BDDA3622246A33400944DD5 /* GameScene.swift */,
 				9BDDA3642246A33400944DD5 /* ViewController.swift */,
+				9BDDA3722246A40A00944DD5 /* empty.wav */,
+				9BDDA3742246A41C00944DD5 /* shot.wav */,
+				9BDDA3762246A42600944DD5 /* reload.wav */,
 				9BDDA3662246A33500944DD5 /* Assets.xcassets */,
 				9BDDA3682246A33500944DD5 /* Main.storyboard */,
 				9BDDA36B2246A33500944DD5 /* Info.plist */,
 				9BDDA36C2246A33500944DD5 /* DuckHunter.entitlements */,
+				9BDDA3782246A4AC00944DD5 /* GameView.swift */,
+				9BDDA37A2246A4D900944DD5 /* Target.swift */,
 			);
 			path = DuckHunter;
 			sourceTree = "<group>";
@@ -130,10 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BDDA3752246A41C00944DD5 /* shot.wav in Resources */,
+				9BDDA3732246A40A00944DD5 /* empty.wav in Resources */,
 				9BDDA35F2246A33400944DD5 /* GameScene.sks in Resources */,
 				9BDDA3672246A33500944DD5 /* Assets.xcassets in Resources */,
-				9BDDA3612246A33400944DD5 /* Actions.sks in Resources */,
 				9BDDA36A2246A33500944DD5 /* Main.storyboard in Resources */,
+				9BDDA3772246A42600944DD5 /* reload.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,7 +160,9 @@
 			files = (
 				9BDDA3652246A33400944DD5 /* ViewController.swift in Sources */,
 				9BDDA3632246A33400944DD5 /* GameScene.swift in Sources */,
+				9BDDA3792246A4AC00944DD5 /* GameView.swift in Sources */,
 				9BDDA35D2246A33400944DD5 /* AppDelegate.swift in Sources */,
+				9BDDA37B2246A4D900944DD5 /* Target.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
